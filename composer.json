@@ -1,0 +1,32 @@
+{
+    "name": "grizz-it/micro-service",
+    "keywords": [
+        "services"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.1"
+    },
+    "authors": [
+        {
+            "name": "GrizzIT",
+            "homepage": "https://www.grizzit.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GrizzIt\\MicroService\\": "src/"
+        }
+    },
+    "archive": {
+        "exclude": [
+            "/tests",
+            "/.gitignore",
+            "/phpunit.xml"
+        ]
+    }
+}
